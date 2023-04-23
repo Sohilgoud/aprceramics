@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Inter&amp;display=swap" rel="stylesheet"> </link>
+        <link rel="stylesheet" href="index.css"> 
+    <body>
+        <section id="header">
+            <nav id="header-nav">
+                <a href="index.html"> <img id="logo" src="./images/AprLogo.jpeg"> </a>
+                <div class="nav-links" id="nav-links-container">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul class="nav-links-items">
+                        <li><a href="#header">HOME</a></li>
+                        <li><a href="#call-us-now">ABOUT US</a></li>
+                        <li><a href="#footer">CONTACT US</a></li>
+                        <li><a href="#about-us">GET QUOTE</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>     
+            <div class="home-banner">
+                <p  class="welcome-text"> Welcome To APR Ceramics </p>
+                <h1 class="welcome-heading">High Performance Natural Stone</h1>
+                <div class="home-banner-nav">
+                    <button class="btn">Get In Touch</button>
+                </div>
+            </div>     
+        </section>
+        <section id="services-section">
+            <h1 class="services-heading">WHAT WE OFFER</h1>
+            <h1 class="services-text">Provides Best Services</h1>
+            <div class="row">
+                <div class="service-item">
+                    <div class="img-container">
+                        <img src="./images/tiles-laying-1.jpg">
+                    </div>
+                    <div class="layer">
+                        <h3>Tiles Laying</h3>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="img-container">
+                        <img src="./images/tiles.jpg">
+                    </div>
+                    <div class="layer">
+                        <h3>Kitchen | Bathroom | Parking Tiles</h3>
+                    </div>               
+                 </div>
+                <div class="service-item">
+                    <div class="img-container">
+                        <img src="./images/Granite.jpg">
+                    </div>
+                    <div class="layer">
+                        <h3>Granite | Marble </h3>
+                    </div>
+                 </div>
+            </div>
+        </section>
+        <section id="call-us-now">
+            <h1 class="text">Get Professional Service. Call Us Now</h1>
+            <h1 class="contant-number">
+                <i class="fa fa-phone" aria-hidden="true">
+                </i> 9573774232</h1>
+        </section>
+        <section id="about-us">
+            <div id="about-us-img"></div>
+            <div id="about-us-details">
+                <h1>About Us</h1>
+                <h2>Visit Our Marble & Granite Display Warehouse</h2>
+                <p>At APR Ceramics, we offer quality stone products in the form of tiles and slabs selected from all over the world to enhance your home project.</p>
+                <ul>
+                    <li>Heat-Resistant</li>
+                    <li>Very Durable</li>
+                    <li>Less Maintenance</li>
+                    <li>Elegant Vein Patterns</li>
+                    <li>More Expensive</li>
+                </ul>
+            </div>
+        </section>
+        <section id="footer">
+           <div class="footer-items">
+                <div class="footer-item">
+                    <h1 class="heading">About Us</h1>
+                    <ul>
+                        <li>Our passion for quality and design is reflected in every tile we offer, making your space truly unique</li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> 9573774232</li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h1 class="heading">Our Products</h1>
+                    <ul>
+                        <li>Tiles</li>
+                        <li>Granites</li>
+                        <li>Sanitary</li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h1 class="heading">Our Showroom</h1>
+                    <ul>
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i> Near Ambedkar Statue, Hyderabad Road, Mokila, Shankarpally[M], R.R Dist</li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> 9573774232</li>
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i> amrceramics@gmail.com</li>
+                    </ul>
+                </div>
+           </div>
+           <div class="social-media-icons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-envelope"></a>
+           </div>
+        </section>
+        <script>
+            var navLinks = document.getElementById('nav-links-container')
+            function showMenu(){
+                navLinks.style.right=0;
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
